@@ -1,0 +1,24 @@
+<div id="mapcontainer" style="display:none;">
+<div id="masterplan" style="position: absolute; top: 50px; left: 500px; width: 500px; height: 520px; border: 1px solid orange; overflow: hidden;">
+
+<div id="headdy" style="position: absolute; top: 0px; left: 0px; width: 500px; height: 15px; background-color: orange;" onmousedown="xselect('mapcontainer')"> </div>
+<div id="xheaddy" style="position: absolute; top: 0px; right: 0px; width: 15px; height: 15px; background-color: orange; color: black" onmousedown="document.getElementById('mapcontainer').setAttribute('style', 'display: none')">X</div>
+  <div id="map" style="position: absolute; top: 20px; left: 0px;"  onmousedown="scrol=1">
+  
+    <div id="map_content" style="position: absolute; top: 0px; left: -1000px; width: 3000px;"  >
+
+      <div id="map_svg" style="position: absolute; left: 0px; top: 0px; height: 500px; width: 3000px; z-index: 100;">
+
+        <svg:svg version="1.1" id="svgbla" baseProfile="full" width="3000px" height="500px">
+          <svg:circle cx="460" cy="256px" r="10px" fill="none" stroke="#ff0000" stroke-width="1px"/>
+        </svg:svg>
+      </div>
+      
+      <div style="position: absolute; left: 0px; top: 0px; width: 3000px; height: 500px;" onmousedown="scrol=1"> </div>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
